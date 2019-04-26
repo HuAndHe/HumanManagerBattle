@@ -34,8 +34,8 @@
 
   font 使用步骤：
   my_font = pygame.font.SysFont("arial", 16)	 字体名 大小
-  text_surface = my_font.render("Pygame is cool!", True, (0,0,0), (255, 255, 255))  文字 是否开启锯齿 字体颜色 背景颜色
-  screen.blit(text_surface, (x, y)) 
+  text_surface = my_font.render("Pygame is cool!", True, (0,0,0), (255, 255, 255))  文字 是否开启锯齿 字体颜色 背
+
   
   
   学习pygame Vector向量的知识：
@@ -50,3 +50,11 @@
         fire()
 
  2019/4/22 修改毕设，论文
+ 
+ ###在廖雪峰的网站学习了海龟绘图
+ 发现利用turtle画棋盘更方便
+ 海龟绘图
+
+ 在1966年，Seymour Papert和Wally Feurzig发明了一种专门给儿童学习编程的语言——LOGO语言，它的特色就是通过编程指挥一个小海龟（turtle）在屏幕上绘图。
+ 海龟绘图（Turtle Graphics）后来被移植到各种高级语言中，Python内置了turtle库，基本上100%复制了原始的Turtle Graphics的所有功能。
+ 开始学习turtle库，掌握其基本用法
