@@ -3,6 +3,12 @@
   第一次部署项目到git仓库
   第一步完成项目时间规划
   每晚22：00定时推到github上
+  
+  师兄交流要点：
+	多人VR服务器的设计：基于unity c#
+		设备：HTC VIVE
+		用到的插件 steamVR  VRTK 
+  黄老师要求：做一个中国象棋的人机对弈，用python+tensorflow环境，机器学习
   象棋规则及界面实现步骤：
 	1.绘制棋盘
 	2.绘制棋子
@@ -58,3 +64,19 @@
  在1966年，Seymour Papert和Wally Feurzig发明了一种专门给儿童学习编程的语言——LOGO语言，它的特色就是通过编程指挥一个小海龟（turtle）在屏幕上绘图。
  海龟绘图（Turtle Graphics）后来被移植到各种高级语言中，Python内置了turtle库，基本上100%复制了原始的Turtle Graphics的所有功能。
  开始学习turtle库，掌握其基本用法
+ 
+ 
+ ###pyinstaller使用方法
+	pip install pyinstaller
+	#生成单一的exe文件：
+		pyinstaller -F test.py
+	#基本使用方法：
+		pyinstaller -F -i tb2.ico -w 翻译.py
+ ###tkinerGUI编程基本使用方法：
+	Tkinter 是 Python 的标准 GUI 库。Python 使用 Tkinter 可以快速的创建 GUI 应用程序
+	import tkinter
+	
+	top = tkinter.Tk()
+	# 进入消息循环
+	top.mainloop()
+2019/4/28 论文修改  去重
